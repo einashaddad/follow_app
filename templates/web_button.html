@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block body %}
+	<h3>follow all hacker schoolers in your batch?</h3>
+
+  	<form name="input" action="/" method="post">
+	<d1>
+	  	<dt>HackerSchool username: 
+	  	<dd><input type="text" name="HS-username">
+	  	<dt>HackerSchool password: 
+	  	<dd><input type="password" name="HS-password">
+	  	<dt>GitHub username: 
+	  	<dd><input type="text" name="GH-username">
+	  	<dt>GitHub password: 
+	  	<dd><input type="password" name="GH-password">
+	  	<dd><input type="submit" name='login' value="Follow!">
+
+	</d1>
+</form>
+{% endblock %}

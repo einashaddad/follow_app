@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% block body %}
+
+{% if not error %}
+	<h3>Followed:</h3>
+
+	{% if not following %}
+	<div>None</div>
+	{% endif %}
+
+	{% for person in following %}
+	<div>{{ person }}</div>
+	{% endfor %}
+
+	<h3>Already following:</h3>
+
+	{% if not already_following %}
+	<div>None</div>
+	{% endif %}
+
+	{% for person in already_following %}
+	<div>{{ person }}</div>
+	{% endfor %}
+
+{% else %}
+	{{ error }}
+{% endif %}
+
+{% endblock %}
