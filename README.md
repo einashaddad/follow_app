@@ -6,6 +6,10 @@ I am learning Flask by creating a web app for my [follow](https://github.com/ein
 ####To run on your localhost:
 
     python web_button.py
+    
+####To install all python packages:
+
+    pip install -r requirements.txt --no-index
 
 ####Here's what it looks like:
 
