@@ -3,6 +3,8 @@ follow_app
 
 I am learning Flask by creating a web app for my [follow](https://github.com/einashaddad/follow) project. 
 
+Follow is a python program that scrapes the Hacker School website for students' GitHub handles and then makes API calls to follow all current batch students on GitHub.
+
 ####To run on your localhost:
 
     python web_button.py
