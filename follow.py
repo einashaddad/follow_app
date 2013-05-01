@@ -113,10 +113,10 @@ def render(hs_email, hs_password, gh_username, gh_password):
 if __name__ == '__main__':
     host = 'https://www.hackerschool.com'
 
-    hs_email =  raw_input("Hackser-School username:")
-    hs_password = getpass.getpass(prompt='Hacker-School password:')
-    gh_username = raw_input("GitHub username:")
-    gh_password = getpass.getpass(prompt='GitHub password:')
+    hs_email =  raw_input("Hacker-School username: ")
+    hs_password = getpass.getpass(prompt='Hacker-School password: ')
+    gh_username = raw_input("GitHub username: ")
+    gh_password = getpass.getpass(prompt='GitHub password: ')
     
     response = scrape_hs(hs_email, hs_password, host)
     try:
