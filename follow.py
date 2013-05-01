@@ -62,7 +62,7 @@ def extract_githubs(resp):
         
 
         if 'github' in first_link:
-            just_user = first_link[17:] 
+            just_user = first_link[18:]
             people_to_follow[person_endpoint] = just_user
     
     return people_to_follow
